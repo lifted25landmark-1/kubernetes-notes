@@ -15,7 +15,7 @@
 # Create Deployment
 kubectl create deployment <Deplyment-Name> --image=<Container-Image>
 kubectl create deployment my-first-deployment --image=mylandmarktech/hello
-
+# The deployment create a replica set and the replica set create a pod(If view it you will see they share the same ID number)
 # Verify Deployment
 kubectl get deployments
 kubectl get deploy 
